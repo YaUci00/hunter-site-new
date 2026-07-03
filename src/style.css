@@ -13,6 +13,13 @@
 
 html { scroll-behavior: auto; }
 
+/* hero copy stays hidden until JS reveals it in sync with the pop-in,
+   so slow loads don't flash the static text before the animation */
+.hero__eyebrow,
+.hero__title,
+.hero__sub,
+.hero__photo { visibility: hidden; }
+
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   background: var(--bg);
