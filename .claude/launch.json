@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hunter-site-new",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/kokoroyabuuchi/hunter-site-new",
+      "port": 5173
+    }
+  ]
+}

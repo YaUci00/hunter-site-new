@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HunterSite | まだない遊び場を、つぎつぎと。</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800;900&family=Bungee&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="nightOverlay"></div>
+  <canvas id="bg"></canvas>
+
+  <header class="nav">
+    <a class="nav__logo" href="#top">HUNTER<span>SITE</span></a>
+    <nav class="nav__menu">
+      <a href="#about">ABOUT</a>
+      <a href="#services">SERVICES</a>
+      <a href="#casino">CASINO</a>
+      <a href="#cafe">CAFE</a>
+      <a href="#careers">CAREERS</a>
+      <a class="nav__cta" href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__photos" aria-hidden="true">
+        <img class="hero__photo hero__photo--1" src="/hs/wp-content/themes/hunter_tmp/img/service/QC.png" alt="" />
+        <img class="hero__photo hero__photo--2" src="/hs/wp-content/themes/hunter_tmp/img/service/GGSB.png" alt="" />
+        <img class="hero__photo hero__photo--3" src="/hs/wp-content/themes/hunter_tmp/img/service/SM.png" alt="" />
+        <img class="hero__photo hero__photo--4" src="/hs/wp-content/themes/hunter_tmp/img/service/KKSJ.png" alt="" />
+      </div>
+      <p class="hero__eyebrow">HUNTERSITE Co., Ltd.</p>
+      <h1 class="hero__title" id="heroTitle">まだない遊び場を、<br />つぎつぎと。</h1>
+      <p class="hero__sub">New Ways to Play, Nonstop.</p>
+      <div class="hero__scroll">SCROLL<span class="hero__scroll-arrow">↓</span></div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__inner">
+        <span>NEW WAYS TO PLAY ✦ NONSTOP ✦ POKER ✦ CAFE ✦ MARKETING ✦&nbsp;</span>
+        <span>NEW WAYS TO PLAY ✦ NONSTOP ✦ POKER ✦ CAFE ✦ MARKETING ✦&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <p class="section__label">ABOUT</p>
+      <h2 class="about__title fade-up">「遊び」を、<br class="sp" />真剣につくる会社。</h2>
+      <p class="about__text fade-up">
+        コンセプトカフェ、アミューズメントカジノ、そしてマーケティング。<br />
+        HunterSiteは「たのしい」を起点に、まだ世の中にない遊び場を<br class="pc" />
+        つぎつぎと生み出していくクリエイティブカンパニーです。
+      </p>
+      <div class="about__stats fade-up">
+        <div class="stat"><span class="stat__num">34</span><span class="stat__label">PLAYGROUNDS</span></div>
+        <div class="stat"><span class="stat__num">9</span><span class="stat__label">AREAS</span></div>
+        <div class="stat"><span class="stat__num">3</span><span class="stat__label">BUSINESSES</span></div>
+      </div>
+    </section>
+
+    <!-- PHOTO STRIP -->
+    <div class="photostrip" aria-hidden="true">
+      <div class="photostrip__inner" id="photostrip"></div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <p class="section__label">SERVICES</p>
+      <h2 class="services__title fade-up">3つの遊び場</h2>
+      <div class="services__grid">
+        <a class="card card--pink fade-up" href="#casino">
+          <div class="card__num">01</div>
+          <h3 class="card__title">POKER &amp;<br />AMUSEMENT CASINO</h3>
+          <p class="card__text">本格ポーカーを、もっと身近に。秋葉原から大阪まで、初心者からガチ勢まで夢中になれるアミューズメントカジノを全国14店舗展開中。</p>
+          <div class="card__tag">♠ 全国7エリア・14店舗</div>
+          <div class="card__more">VIEW MORE <span>→</span></div>
+        </a>
+        <a class="card card--yellow fade-up" href="#cafe">
+          <div class="card__num">02</div>
+          <h3 class="card__title">CONCEPT<br />CAFE</h3>
+          <p class="card__text">メイド、魔女、サキュバス、龍姫。世界観にどっぷり浸れるコンセプトカフェ＆シーシャを全国20店舗プロデュース。</p>
+          <div class="card__tag">☕ 全国8エリア・20店舗</div>
+          <div class="card__more">VIEW MORE <span>→</span></div>
+        </a>
+        <a class="card card--blue fade-up" href="#marketing">
+          <div class="card__num">03</div>
+          <h3 class="card__title">MARKETING</h3>
+          <p class="card__text">遊び場づくりで培った集客とファンづくりのノウハウを、あなたのビジネスにも。企画から運用まで伴走します。</p>
+          <div class="card__tag">📣 MARKETING</div>
+          <div class="card__more">VIEW MORE <span>→</span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- seam band: day -> night -->
+    <div class="marquee marquee--night" aria-hidden="true">
+      <div class="marquee__inner">
+        <span>WELCOME TO THE NIGHT ♠ ALL IN ♦ POKER TIME ♣ DEAL ME IN ♥&nbsp;</span>
+        <span>WELCOME TO THE NIGHT ♠ ALL IN ♦ POKER TIME ♣ DEAL ME IN ♥&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- CASINO / NIGHT (theme flip) -->
+    <section class="night section" id="casino">
+      <p class="section__label section__label--night">POKER &amp; AMUSEMENT CASINO</p>
+      <h2 class="night__title fade-up">夜は、もっと<br class="sp" />自由だ。</h2>
+      <p class="night__text fade-up">
+        トーナメントもリングも、初心者講習も。<br />
+        全国7エリア14店舗で、今夜も熱いゲームが始まっています。
+      </p>
+      <div class="venues__grid venues__grid--night" id="casinoGrid"></div>
+    </section>
+
+    <!-- seam band: night -> day -->
+    <div class="marquee marquee--dawn" aria-hidden="true">
+      <div class="marquee__inner">
+        <span>GOOD MORNING ☀ CAFE TIME ✦ SWEET WORLD ✦ ANOTHER WORLD AWAITS ✦&nbsp;</span>
+        <span>GOOD MORNING ☀ CAFE TIME ✦ SWEET WORLD ✦ ANOTHER WORLD AWAITS ✦&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- CAFE -->
+    <section class="cafe section" id="cafe">
+      <p class="section__label">CONCEPT CAFE</p>
+      <h2 class="cafe__title fade-up">世界観に、<br class="sp" />飛び込め。</h2>
+      <p class="cafe__text fade-up">
+        王道メイドカフェから、魔女の森、電脳サキュバス、幻想の龍姫まで。<br />
+        扉を開けたら、そこはもう別世界。全国8エリア20店舗。
+      </p>
+      <div class="venues__grid" id="cafeGrid"></div>
+    </section>
+
+    <!-- MARKETING -->
+    <section class="mkt section" id="marketing">
+      <p class="section__label">MARKETING</p>
+      <h2 class="mkt__title fade-up">遊び場のノウハウを、<br class="sp" />ビジネスに。</h2>
+      <p class="mkt__text fade-up">
+        全国34の遊び場で毎日磨いている集客・ファンづくり・イベント運営の実践知を、<br class="pc" />
+        そのまま御社のマーケティングに活かします。
+      </p>
+      <div class="mkt__pills fade-up">
+        <span class="mkt__pill">集客企画</span>
+        <span class="mkt__pill">SNS・ファンコミュニティ運用</span>
+        <span class="mkt__pill">イベントプロデュース</span>
+        <span class="mkt__pill">店舗プロデュース</span>
+      </div>
+      <a class="careers__btn fade-up" href="#contact">相談してみる →</a>
+    </section>
+
+    <!-- CAREERS -->
+    <section class="careers section" id="careers">
+      <p class="section__label">CAREERS</p>
+      <h2 class="careers__title fade-up">一緒に、遊び場を<br class="sp" />つくらないか。</h2>
+      <p class="careers__text fade-up">
+        ディーラー、カフェスタッフ、企画、マーケター。<br />
+        「たのしい」を仕事にしたい仲間を募集しています。
+      </p>
+      <a class="careers__btn fade-up" href="#contact">採用情報を見る →</a>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <footer class="footer" id="contact">
+      <h2 class="footer__title">LET'S<br />PLAY!</h2>
+      <p class="footer__text">出店・コラボ・取材・採用のご相談はお気軽に。</p>
+      <a class="footer__btn" href="mailto:info@hunter-site.com">CONTACT US</a>
+      <p class="footer__copy">© HunterSite Co., Ltd. — New Ways to Play, Nonstop.</p>
+    </footer>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
