@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/hs/:path*", "destination": "https://hunter-site.com/:path*" }
+  ]
+}
